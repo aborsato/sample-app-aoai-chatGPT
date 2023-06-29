@@ -49,6 +49,7 @@ jobs:
           path: |
             . 
             !venv/
+            !frontend/
 
   deploy:
     runs-on: ubuntu-latest
